@@ -25,13 +25,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-const appendTelegramScript = () => {
-  const script = document.createElement("script");
-  script.src = "https://telegram.org/js/telegram-web-app.js";
-  script.async = true;
-  document.body.appendChild(script);
-};
-
 const checkTelegramUser = () => {
   const tg = window.Telegram?.WebApp;
   if (!tg) {
@@ -40,12 +33,11 @@ const checkTelegramUser = () => {
 };
 
 export const App = () => {
-  // useEffect(() => {
-  //   if (process.env.NODE_ENV === "production") {
-  //     appendTelegramScript();
-  //     checkTelegramUser();
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      checkTelegramUser();
+    }
+  }, []);
 
   return (
     <Provider store={store}>
