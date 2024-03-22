@@ -1,0 +1,22 @@
+import React from "react";
+
+const CheckedIcon = () => (
+  <svg
+    width="22"
+    height="22"
+    viewBox="0 0 22 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="22" height="22" rx="11" fill="#007AFF" />
+    <path
+      d="M6.75 12L9.75 15.5L15.25 7.5"
+      stroke="#E8E8E9"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export default CheckedIcon;

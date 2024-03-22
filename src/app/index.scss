@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "/assets/css/fonts.css";
+
+// GLOBAL STYLES START
+html {
+  font-family: "SFPro", "Courier New", "Courier", ui-monospace, monospace;
+  font-size: 17px;
+  color: #404040;
+  word-spacing: normal;
+  scroll-behavior: smooth;
+  letter-spacing: 0em;
+  line-height: 22px;
+  font-weight: 400;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(0 0 0);
+  background-color: rgb(243, 243, 243);
+}
