@@ -1,4 +1,4 @@
-import CheckedIcon from "/assets/svg/CheckedIcon";
+import CheckedIcon from "/assets/svg/checkedIcon.svg?react";
 
 let selectedGoal = NaN;
 

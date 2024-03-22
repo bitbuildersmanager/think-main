@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import GoalIcon from "/assets/svg/GoalIcon";
-import StreakIcon from "/assets/svg/StreakIcon";
-import LivesIcon from "/assets/svg/LivesIcon";
+import GoalIcon from "/assets/svg/goalIcon.svg?react";
+import StreakIcon from "/assets/svg/streakIcon.svg?react";
+import LivesIcon from "/assets/svg/livesIcon.svg?react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -125,7 +125,7 @@ export const Header = () => {
       >
         <div className="flex flex-col items-center">
           <div className="flex items-center ">
-            <div className="min-w-[29px] h-[29px] mr-3">
+            <div className="w-[29px] h-[29px] mr-3">
               {ICONS[staticInfo?.icon as keyof typeof ICONS]}
             </div>
 

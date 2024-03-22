@@ -1,7 +1,4 @@
-import React from "react";
-
-const CheckedIcon = () => (
-  <svg
+<svg
     width="22"
     height="22"
     viewBox="0 0 22 22"
@@ -16,7 +13,5 @@ const CheckedIcon = () => (
       strokeLinecap="round"
       strokeLinejoin="round"
     />
-  </svg>
-);
+</svg>
 
-export default CheckedIcon;
