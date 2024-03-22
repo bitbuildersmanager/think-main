@@ -40,12 +40,12 @@ const checkTelegramUser = () => {
 };
 
 export const App = () => {
-  useEffect(() => {
-    if (process.env.NODE_ENV === "production") {
-      appendTelegramScript();
-      checkTelegramUser();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (process.env.NODE_ENV === "production") {
+  //     appendTelegramScript();
+  //     checkTelegramUser();
+  //   }
+  // }, []);
 
   return (
     <Provider store={store}>
